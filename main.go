@@ -1,4 +1,4 @@
-package github.com/satk124/microservice
+package main 
 import (
 	"fmt"
 )
