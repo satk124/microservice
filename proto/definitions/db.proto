@@ -1,0 +1,13 @@
+syntax = "proto3";
+option go_package = ".;db";
+
+message Response {
+	string item=1;
+}
+message Request{
+
+}
+
+service db {
+	rpc Get (Request) returns (stream Response){};
+}
